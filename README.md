@@ -2,6 +2,9 @@
 
 ## Rmarkdown 
 
+### Slides
+- [Download slides](https://github.com/omarwagih/btm-2015/raw/master/btm_rmarkdown.pdf?raw=TRUE)
+
 ### Cheatsheet
 - [Download rmarkdown cheatsheet](https://github.com/omarwagih/btm-2015/raw/master/rmarkdown-cheatsheet.pdf?raw=TRUE)
 
