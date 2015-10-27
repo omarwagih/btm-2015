@@ -3,7 +3,7 @@
 ## Rmarkdown 
 
 ### Cheatsheet
-- [Download rmarkdown cheatsheet](https://github.com/omarwagih/btm-2015/blob/master/rmarkdown/rmarkdown-cheatsheet.pdf)
+- [Download rmarkdown cheatsheet](https://github.com/omarwagih/btm-2015/raw/master/rmarkdown-cheatsheet.pdf?raw=TRUE)
 
 ### Excercises
 - [Excercise 1 | Simple markdown syntax](https://github.com/omarwagih/btm-2015/blob/master/rmarkdown/exercise1.Rmd)
