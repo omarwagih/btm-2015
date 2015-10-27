@@ -1,1 +1,48 @@
-xxx
+---
+title: "Excercise 1"
+author: "Your name"
+date: "27 October 2015"
+output: html_document
+---
+
+# Rmarkdown
+## Excercise 1
+### Basic markdown syntax
+
+Markdown is a text format that can be converted to formats such as HTML. The syntax is really easy. Here are some lists. Remember to use four spaces to indent.
+
+  - Markdown 
+      + is
+          + awesome
+  - and easy
+  - to use
+
+Numbered lists are also similar
+
+1. We are
+2. the EMBL
+    + predocs
+
+> Here is a 
+> quote block 
+
+
+This text is written in markdown. Here is some *italic text*, you can also use _underscores_. Here is some **bold text**, you can also use __double uncderscores__.
+
+I can superscript like this 27^th^ and ~~strikeout like this~~.
+
+Creating a link is very easy. Here is one to [EMBL's awesome website](http://embl.org/) yay. 
+
+Here is a simple table
+
+Table Header  | Second Header
+------------- | -
+Table Cell    | Cell 2
+Cell 3        | Cell 4
+
+It's also very easy to include an image from the internet or your computer
+![EMBL logo](http://embl.org/layout/images/external/common/embl_logo.png)
+
+I can also write some code like this `print("hello world")`
+
+## End of excercise 1

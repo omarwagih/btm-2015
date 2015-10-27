@@ -1,1 +1,67 @@
-xxx
+---
+title: "Excercise 2"
+author: "Your name"
+date: "27 October 2015"
+output: html_document
+---
+
+# Rmarkdown
+## Excercise 2
+### Basic code chunks
+
+This is a very simple paste statement
+```{r}
+paste("hello world")
+```
+
+Notice how the code and the output always shows. To hide the code, set `echo` to `FALSE` like this:
+
+```{r, echo=FALSE}
+paste("hello world")
+```
+
+If you don't want the chunk to be run at all you can set `eval` to `FALSE`
+
+```{r, eval=FALSE, echo=TRUE}
+paste("hello world")
+```
+
+
+You can also insert code in-line. For example, 5 + 9 = `r 5 + 9`, or I think `r paste("EMBL")` is awesome.
+
+### Tables
+
+Here is a simple table
+
+```{r}
+# Define a data frame
+df = data.frame(number=1:3, letter=c("a", "b", "c"))
+
+# Print my table
+print(df)
+
+# Pretty version, you can give it a caption and left-align it with "l"
+knitr::kable(df, caption="My table", align="l")
+```
+
+
+### Plots
+
+Here is a simple scatter plot
+```{r}
+plot(1:10, main="My scatterplot")
+```
+
+Here are two plots side-by-side
+```{r}
+# Create plotting region with one row, two columns
+par(mfrow=c(1,2))
+
+# First plot
+plot(1:10, main="My scatterplot")
+
+# Second plot
+hist(rnorm(100))
+```
+
+

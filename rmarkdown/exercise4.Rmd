@@ -1,1 +1,19 @@
-xxx
+---
+title: "Excercise 4"
+author: "Your name"
+date: "27 October 2015"
+output: html_document
+---
+
+Here is a cached chunk. The first time you run it, it will take ~5 seconds to generate because we are setting the system to sleep for 5 seconds before printing (we are mimicing a computationally intensive function). Any subsequent runs should not take as long, becase the results are cached on your machine. 
+
+Play around with it a little. Try setting `cache=FALSE`. Does it run slower?
+```{r, cache=TRUE}
+# Sleep for five second
+Sys.sleep(5)
+# Print a result
+paste("This took me a long time to run!")
+```
+
+
+
