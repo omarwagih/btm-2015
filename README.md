@@ -4,7 +4,7 @@
 
 ### Marijuana prices per state
 - [Download data](https://github.com/omarwagih/btm-2015/raw/master/playwithdata/weedprices.rds?raw=TRUE)
-
+- Read file into R using `readRDS("weedprices.rds")`
 
 ## Rmarkdown 
 
