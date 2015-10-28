@@ -1,5 +1,11 @@
 # BTM (2015)
 
+## Data set manipulation
+
+### Marijuana prices per state
+- [Download data](https://github.com/omarwagih/btm-2015/raw/master/playwithdata/weedprices.rds?raw=TRUE)
+
+
 ## Rmarkdown 
 
 ### Slides
