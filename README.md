@@ -1,3 +1,8 @@
+# Rmarkdown
+
+### Slides
+- [Download slides](https://github.com/omarwagih/eipp/raw/master/eipp_rmarkdown_slides.pdf?raw=TRUE)
+
 ### Cheatsheet
 - [Download rmarkdown cheatsheet](https://github.com/omarwagih/eipp/raw/master/rmarkdown-cheatsheet.pdf?raw=TRUE)
 
